@@ -2,6 +2,7 @@ name: cicd
 on:
   push:
     branches: [main]
+    paths: ['**.html']
 permissions:
   contents: read
   pages: write
